@@ -18,7 +18,7 @@ print(f"• Objetivo: Jarro 2 com 2 litros de águal")
 def esvaziarJarro1 (x):
       while x >= 3:
         x -= 1
-        print(f"esvaziando Jarro 02 em -1L, jarro 2 = {x}")
+        print(f"esvaziando Jarro 01 em -1L, jarro 1 = {x}")
         return x
 
 def esvaziarJarro2 (y):
@@ -30,3 +30,10 @@ def esvaziarJarro2 (y):
 Jarro1 = esvaziarJarro1(Jarro1)
 Jarro2 = esvaziarJarro2(Jarro2)
 
+while Jarro2 > 2:
+        Jarro2 -= 1
+        Jarro1 += 1
+        print("Transferindo 1L água da Jarro 2 para Jarro 1")
+        print(f"Jarro 1 = {Jarro1}L")
+        print(f"Jarro 2 = {Jarro2}L")
+        
