@@ -9,15 +9,15 @@
 #if numero == 15:
 #    print("VERDADEIRO")
 
-#lista = [1, 2, 3, 4]
-#print(lista)
-#lista.append(5)
-#print(lista)
-#numeroRetirado = lista.pop(4)
-#print(numeroRetirado)
-#print(lista)
-#lista.insert(0,"Douglas")
-#print(lista)
+lista = [0,1,2,3]
+print(lista)
+""" lista.append(4) 
+print(lista) """
+numeroRetirado = lista.pop(1)
+print(numeroRetirado)
+print(lista)
+lista.insert(0,"Douglas")
+print(lista)
 
 #pos = lista.index('DOUGLAS')
 #print(pos)
@@ -29,7 +29,7 @@ pos = tupla.index("João")
 print(pos)
 pessoa = "Maria"
 tupla = pessoa
-print(tupla) """
+print(tupla)  """
 
 # CONJUTNOS
 """ conjunto = {"Diego", "João", "Maria"}
@@ -163,8 +163,8 @@ while True:
         print(f"vc dgt o Nr {cod}, vamos prosseguir")
     elif cod ==3:
         print(f"vc dgt o Nr {cod}, vamos parar!")
-        break 
- """
+        break  """
+ 
 #Metodos
 """ nome = "douglas"
 print(nome.upper()) """
@@ -195,7 +195,3 @@ print(resultado) """
 print(resultado) 
  """
 
-x=1
-while x > 0:
-    x =+ 1
-    print(x)
