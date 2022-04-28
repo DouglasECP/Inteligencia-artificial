@@ -23,13 +23,13 @@ print(lista)
 #print(pos)
 
 # TUPLAS
-""" tupla = ("Douglas", "João",[1, 2, 3])
+tupla = ("Douglas", "João",[1, 2, 3])
 print(tupla)
 pos = tupla.index("João")
 print(pos)
 pessoa = "Maria"
 tupla = pessoa
-print(tupla)  """
+print(tupla)
 
 # CONJUTNOS
 """ conjunto = {"Diego", "João", "Maria"}
